@@ -5,6 +5,7 @@
   <param name="wheel_radius" value="0.05"/>
   <param name="gaussian_noise_mean" value="0.0"/>
   <param name="gaussian_noise_stddev" value="1.0"/>
+  <param name="rpm_ref" value="120"/>
   
   <node pkg="gmr_intro" type="gmr_intro_node" name="gmr_intro_node" output="screen">
   </node>
@@ -14,6 +15,8 @@
     <param name="nome_topico_right_rpm" value="/right_rpm"/>
     <param name="time_between_toggles" value="-2.0"/>
   </node>
+
+<node pkg="tf2_ros" type="static_transform_publisher" name="camera2cg" args="0.15 0 0.1 0 0.52359877559 0 base_link frontal_camera" />
 
 
 </launch>

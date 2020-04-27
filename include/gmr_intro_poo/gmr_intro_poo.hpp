@@ -23,6 +23,7 @@ class RobotClass
         ros::ServiceClient  _client_toggle_robot;
         ros::Subscriber     _sub_left;
         ros::Subscriber     _sub_right;
+        tf2_ros::TransformBroadcaster _tf_br;
 
         struct Params
         {
@@ -47,6 +48,6 @@ class RobotClass
             double theta;
         }_robot_pose;
 
-        double _prev_timestamp;
-        double _prev_timestamp_toggle;
+        ros::Time _prev_timestamp;
+        ros::Time _prev_timestamp_toggle;
 };
