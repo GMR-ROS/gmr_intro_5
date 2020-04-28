@@ -141,6 +141,9 @@ O parâmetro /rpm_ref é utilizado no nó gmr_intro_node para configurar a rota�
  ![](figs/rviz4a.png)
 **Figura 5**: Exemplo de saída no Rviz com um robô mais rápido (alteração no parâmetro /rpm_ref)
 
+
+Os códigos estão disponíveis em [gmr_intro_poo](https://bitbucket.org/grupomecatronica/gmr_intro_poo) no branch gmr_intro_5. Note que há uma pasta rviz. Dentro dela temos o arquivo gmr_intro_5.rviz com as configurações de Rviz (elementos, alterações, tópicos) utilizadas neste tutorial. Importe ao Rviz e confira!
+
 Com este tutorial, conhecemos um pouco dos potenciais do Rviz. Além disso, vimos como ROS trata os sistemas coordenados. Aplicando ao nosso robô fictício, finalmente conseguimos descobrir qual percurso ele estava fazendo. Fechamos os passos essenciais para aqueles que pretendem utilizar ROS. Um desafio para quem deseja testar os conhecimentos de ROS é o [Treasure Hunt](https://bitbucket.org/grupomecatronica/treasure_hunt_publishers). Seguindo dicas e utilizando as mais variadas ferramentas, tente chegar no décimo nível. Boa sorte!
 
 Contato: Akihiro (akihirohh@gmail.com)
