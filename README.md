@@ -144,3 +144,7 @@ O parâmetro /rpm_ref é utilizado no nó gmr_intro_node para configurar a rota�
 Com este tutorial, conhecemos um pouco dos potenciais do Rviz. Além disso, vimos como ROS trata os sistemas coordenados. Aplicando ao nosso robô fictício, finalmente conseguimos descobrir qual percurso ele estava fazendo. Fechamos os passos essenciais para aqueles que pretendem utilizar ROS. Um desafio para quem deseja testar os conhecimentos de ROS é o [Treasure Hunt](https://bitbucket.org/grupomecatronica/treasure_hunt_publishers). Seguindo dicas e utilizando as mais variadas ferramentas, tente chegar no décimo nível. Boa sorte!
 
 Contato: Akihiro (akihirohh@gmail.com)
+
+
+Apoio da Fundação de Amparo à Pesquisa do Estado de São Paulo (FAPESP) através do processo nº 2018/10894-2. 
+As opiniões, hipóteses e conclusões ou recomendações expressas neste material são de responsabilidade do(s) autor(es) e não necessariamente refletem a visão da FAPESP.
